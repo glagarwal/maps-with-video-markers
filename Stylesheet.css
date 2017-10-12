@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:100);
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+html { 
+  background:  url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/World_map_%28Miller_cylindrical_projection%2C_blank%29.svg/951px-World_map_%28Miller_cylindrical_projection%2C_blank%29.svg.png) no-repeat center center fixed; 
+  background-size: cover;
+}
+h1{
+  text-align: center;
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 3em;
+  margin: .5em .2em;
+  font-weight: bolder;
+  text-shadow: 2px 0 #696969;
+  color:	#595959 ;
+}
+
+h4{
+	text-align: right;
+  font-family: 'Dancing Script', sans-serif;
+  margin: 0.8em 7em;
+  font-size: 2em;
+  font-weight: bolder;
+  text-shadow: 2px #339966;
+	color:	#339966;
+}
+
+img {
+    display: block;
+    margin:  0em 15em;
+	text-align: right;
+	
+}
+
+body {
+	text-align: center;
+}
+
+table , th , td
+{
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	border-collapse: collapse;
+}
+#map {
+        height: 600px;
+        width: 1200px;
+		 margin-left: auto;
+		margin-right: auto;
+		content: "";
+		border-radius: 25px;
+       }
+	   
+input
+{
+  -moz-border-radius: 15px;
+ border-radius: 15px;
+    padding:5px;
+	width: 300px;
+}
+
+button
+{
+  -moz-border-radius: 25px;
+ border-radius: 15px;
+    padding:5px;
+	width: 150px;
+}
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+	width: 70%;
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 2em;
+	font-weight: bolder;
+	margin: .2em .5em;
+	color: 	#262626;
+    }
+
